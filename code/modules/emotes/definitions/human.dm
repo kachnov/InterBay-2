@@ -25,6 +25,8 @@
 /decl/emote/human/wag/do_emote(var/mob/living/carbon/human/user)
 	user.animate_tail_start()
 
+
+
 /decl/emote/human/sway
 	key = "sway"
 
@@ -85,3 +87,9 @@
 	user.lust += 10
 	if (user.lust >= user.resistenza)
 		user.cum(user, user)
+		
+/decl/emote/human/dab
+	key = "dab"
+
+/decl/emote/human/dab/get_emote_message_3p(var/mob/living/carbon/human/user)
+	return "USER dabs on them haters."
