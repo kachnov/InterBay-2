@@ -25,8 +25,6 @@
 /decl/emote/human/wag/do_emote(var/mob/living/carbon/human/user)
 	user.animate_tail_start()
 
-
-
 /decl/emote/human/sway
 	key = "sway"
 
